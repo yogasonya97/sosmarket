@@ -11,19 +11,23 @@ function App() {
 
   return (
     <div className="">
-      <div className="mb-8">
-        <CaraoselImage />
-      </div>
       <div className="grid grid-rows-4">
+        <div className="mb-8">
+          <CaraoselImage />
+        </div>
         <div className="grid gap-4 mb-6 grid-cols-3 md:grid-cols-5">
-          <CardSimple />
-          <CardSimple />
-          <CardSimple />
-          <CardSimple />
-          <CardSimple />
-          <CardSimple />
-          <CardSimple />
-          <CardSimple />
+          <div className="p-2 border-solid border-2 border-sky-500 ...">
+            <CardSimple />
+          </div>
+          <div className="p-2 border-solid border-2 border-sky-500 ...">
+            <CardSimple />
+          </div>
+          <div className="p-2 border-solid border-2 border-sky-500 ...">
+            <CardSimple />
+          </div>
+          <div className="p-2 border-solid border-2 border-sky-500 ...">
+            <CardSimple />
+          </div>
         </div>
       </div>
       <ButtomNavigationBarComponent />

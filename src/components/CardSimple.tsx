@@ -1,7 +1,7 @@
 export default function CardSimple() {
   return (
     <>
-      <div className="relative w-30 h-24 p-7 md:w-32 h-24 overflow-hidden bg-white shadow-lg rounded-2xl">
+      <div className="relative w-30 h-24 p-5 md:w-32 h-24 overflow-hidden bg-white shadow-lg rounded-2xl">
         <div className="w-100">
           <img src="" className="" alt="Sosmed" />
           <p className="text-sm font-medium text-gray-800">Avg</p>
