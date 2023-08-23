@@ -228,120 +228,184 @@ function App() {
           </div>
         </div>
       </div> */}
-      <div className="content py-2">
-        <div className="d-flex text-center">
-          <div className="me-auto">
-            <a
-              href="#"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#menu-transfer"
-              className="icon icon-xxl rounded-m bg-theme shadow-m"
-            >
-              <i className="font-28 color-green-dark bi bi-arrow-up-circle" />
-            </a>
-            <h6 className="font-13 opacity-80 font-500 mb-0 pt-2">Transfer</h6>
-          </div>
-          <div className="m-auto">
-            <a
-              href="#"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#menu-request"
-              className="icon icon-xxl rounded-m bg-theme shadow-m"
-            >
-              <i className="font-28 color-red-dark bi bi-arrow-down-circle" />
-            </a>
-            <h6 className="font-13 opacity-80 font-500 mb-0 pt-2">Request</h6>
-          </div>
-          <div
-            data-bs-toggle="offcanvas"
-            data-bs-target="#menu-exchange"
-            className="m-auto"
-          >
-            <a href="#" className="icon icon-xxl rounded-m bg-theme shadow-m">
-              <i className="font-28 color-blue-dark bi bi-arrow-repeat" />
-            </a>
-            <h6 className="font-13 opacity-80 font-500 mb-0 pt-2">Exchange</h6>
-          </div>
-          <div className="ms-auto">
-            <a
-              href="page-payment-bill.html"
-              className="icon icon-xxl rounded-m bg-theme shadow-m"
-            >
-              <i className="font-28 color-brown-dark bi bi-filter-circle" />
-            </a>
-            <h6 className="font-13 opacity-80 font-500 mb-0 pt-2">Bills</h6>
-          </div>
-        </div>
-      </div>
-      <div className="content my-0 mt-n2 px-1">
-        <div className="d-flex">
-          <div className="align-self-center">
-            <h3 className="font-16 mb-2">Recent Activity</h3>
-          </div>
-          <div className="align-self-center ms-auto">
-            <a href="page-activity.html" className="font-12 pt-1">
-              View All
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className="card card-style">
+      <div className="card card-style mt-4">
         <div className="content">
-          <a href="page-activity.html" className="d-flex py-1">
-            <div className="align-self-center">
-              <span className="icon rounded-s me-2 gradient-orange shadow-bg shadow-bg-s">
-                <i className="bi bi-google color-white" />
-              </span>
+         
+          <div
+            id="carouselExampleControls"
+            className="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img src="https://gameguru.ru/media/cache/66/dc/66dc55df642c35ce9a3e610cf1b032fa.jpg" className="d-block w-100" alt="..." />
+              </div>
+              <div className="carousel-item">
+                <img src="https://gameguru.ru/media/cache/66/dc/66dc55df642c35ce9a3e610cf1b032fa.jpg" className="d-hide w-100" alt="..." />
+              </div>
+              <div className="carousel-item">
+                <img src="https://gameguru.ru/media/cache/66/dc/66dc55df642c35ce9a3e610cf1b032fa.jpg" className="d-block w-100" alt="..." />
+              </div>
             </div>
-            <div className="align-self-center ps-1">
-              <h5 className="pt-1 mb-n1">Google Ads</h5>
-              <p className="mb-0 font-11 opacity-50">
-                14th March <span className="copyright-year" />
-              </p>
-            </div>
-            <div className="align-self-center ms-auto text-end">
-              <h4 className="pt-1 mb-n1 color-red-dark">$150.55</h4>
-              <p className="mb-0 font-11">Bill Payment</p>
-            </div>
-          </a>
-          <div className="divider my-2 opacity-50" />
-          <a href="page-activity.html" className="d-flex py-1">
-            <div className="align-self-center">
-              <span className="icon rounded-s me-2 gradient-green shadow-bg shadow-bg-s">
-                <i className="bi bi-caret-up-fill color-white" />
-              </span>
-            </div>
-            <div className="align-self-center ps-1">
-              <h5 className="pt-1 mb-n1">Bitcoin</h5>
-              <p className="mb-0 font-11 opacity-50">
-                14th March <span className="copyright-year" />
-              </p>
-            </div>
-            <div className="align-self-center ms-auto text-end">
-              <h4 className="pt-1 mb-n1 color-blue-dark">+0.315%</h4>
-              <p className="mb-0 font-11">Stock Update</p>
-            </div>
-          </a>
-          <div className="divider my-2 opacity-50" />
-          <a href="page-activity.html" className="d-flex py-1">
-            <div className="align-self-center">
-              <span className="icon rounded-s me-2 gradient-yellow shadow-bg shadow-bg-s">
-                <i className="bi bi-pie-chart-fill color-white" />
-              </span>
-            </div>
-            <div className="align-self-center ps-1">
-              <h5 className="pt-1 mb-n1">Dividends</h5>
-              <p className="mb-0 font-11 opacity-50">
-                13th March <span className="copyright-year" />
-              </p>
-            </div>
-            <div className="align-self-center ms-auto text-end">
-              <h4 className="pt-1 mb-n1 color-green-dark">$950.00</h4>
-              <p className="mb-0 font-11">Wire Transfer</p>
-            </div>
-          </a>
+            <button
+              className="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span className="carousel-control-prev-icon" aria-hidden="true" />
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button
+              className="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span className="carousel-control-next-icon" aria-hidden="true" />
+              <span className="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
       </div>
+      <div className="content py-2">
+        <ul
+          className="nav nav-pills mb-3 nav-justified"
+          id="pills-tab"
+          role="tablist"
+        >
+          <li className="nav-item" role="presentation">
+            <button
+              className="nav-link active"
+              id="pills-home-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-home"
+              type="button"
+              role="tab"
+              aria-controls="pills-home"
+              aria-selected="true"
+            >
+              Games
+            </button>
+          </li>
+          <li className="nav-item" role="presentation">
+            <button
+              className="nav-link"
+              id="pills-profile-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-profile"
+              type="button"
+              role="tab"
+              aria-controls="pills-profile"
+              aria-selected="false"
+            >
+              Sosmed
+            </button>
+          </li>
+          <li className="nav-item" role="presentation">
+            <button
+              className="nav-link"
+              id="pills-contact-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-contact"
+              type="button"
+              role="tab"
+              aria-controls="pills-contact"
+              aria-selected="false"
+            >
+              Pulsa
+            </button>
+          </li>
+        </ul>
+        <div className="card">
+          <div className="card-body">
+            <div className="tab-content" id="pills-tabContent">
+              <div
+                className="tab-pane fade show active"
+                id="pills-home"
+                role="tabpanel"
+                aria-labelledby="pills-home-tab"
+              >
+                <div className="d-flex text-center">
+                  <div className="me-auto">
+                    <a
+                      href="#"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#menu-transfer"
+                      className="icon icon-xxl rounded-m bg-theme shadow-m"
+                    >
+                      {/* <img
+                        src="https://gameguru.ru/media/cache/66/dc/66dc55df642c35ce9a3e610cf1b032fa.jpg"
+                        className="w-5 rounded"
+                      /> */}
+                      <i className="font-28 color-red-dark bi bi-arrow-down-circle" />
+                    </a>
+                    <h6 className="font-13 opacity-80 font-500 mb-0 pt-2">
+                      Mobile Legends
+                    </h6>
+                  </div>
+                  <div className="m-auto">
+                    <a
+                      href="#"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#menu-request"
+                      className="icon icon-xxl rounded-m bg-theme shadow-m"
+                    >
+                      <i className="font-28 color-red-dark bi bi-arrow-down-circle" />
+                    </a>
+                    <h6 className="font-13 opacity-80 font-500 mb-0 pt-2">
+                      Request
+                    </h6>
+                  </div>
+                  <div
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#menu-exchange"
+                    className="m-auto"
+                  >
+                    <a
+                      href="#"
+                      className="icon icon-xxl rounded-m bg-theme shadow-m"
+                    >
+                      <i className="font-28 color-blue-dark bi bi-arrow-repeat" />
+                    </a>
+                    <h6 className="font-13 opacity-80 font-500 mb-0 pt-2">
+                      Exchange
+                    </h6>
+                  </div>
+                  <div className="ms-auto">
+                    <a
+                      href="page-payment-bill.html"
+                      className="icon icon-xxl rounded-m bg-theme shadow-m"
+                    >
+                      <i className="font-28 color-brown-dark bi bi-filter-circle" />
+                    </a>
+                    <h6 className="font-13 opacity-80 font-500 mb-0 pt-2">
+                      Bills
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="tab-pane fade"
+                id="pills-profile"
+                role="tabpanel"
+                aria-labelledby="pills-profile-tab"
+              >
+                Profile
+              </div>
+              <div
+                className="tab-pane fade"
+                id="pills-contact"
+                role="tabpanel"
+                aria-labelledby="pills-contact-tab"
+              >
+                Contact
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="content my-0 mt-n2 px-1">
         <div className="d-flex">
           <div className="align-self-center">
