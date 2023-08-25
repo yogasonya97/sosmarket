@@ -48,20 +48,26 @@
         height: 212px;
       }
     </style>
+   
   </head>
   <body class="theme-light">
-    <div id="preloader">
+    <!-- <div id="preloader">
       <div className="spinner-border color-highlight" role="status" />
-    </div>
+    </div> -->
     <div id="page"></div>
     
-  </body>
-  <script
+    <script
     type="module"
     src="/src/assets/mobile/scripts/bootstrap.min.js"
   ></script>
-  <script type="module" src="https://unpkg.com/@swup/preload-plugin@3"></script>
+  <script
+    type="module"
+    src="https://unpkg.com/@swup/preload-plugin@3"
+  ></script>
   <script type="module" src="https://unpkg.com/swup@4"></script>
-  <script type="module" src="/src/main.jsx"></script>
   <script type="module" src="/src/assets/mobile/scripts/custom.js"></script>
+  <script type="module" src="/src/main.jsx"></script>
+  </body>
+
+  
 </html>

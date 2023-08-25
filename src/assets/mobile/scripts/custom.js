@@ -7,7 +7,7 @@ var _0x6cbb = [
   "DOMContentLoaded",
   "use strict",
   "PayApp",
-  "https://www.enableds.com/products/payapp/v13",
+  "https://www.enableds.com",
   "https://www.enableds.com/products/payapp/v13/_service-worker.js",
   ".card-stack .card",
   "querySelectorAll",
@@ -338,10 +338,11 @@ var _0x6cbb = [
 ];
 setTimeout(function () {
   var _0xebf0x1 = document[_0x6cbb[1]](_0x6cbb[0]);
-  if (_0xebf0x1) {
-    _0xebf0x1[_0x6cbb[4]][_0x6cbb[3]](_0x6cbb[2]);
-  }
-}, 150);
+  // console.log(document[_0x6cbb[1]](_0x6cbb[0]));
+  // if (_0xebf0x1) {
+  //   _0xebf0x1[_0x6cbb[4]][_0x6cbb[3]](_0x6cbb[2]);
+  // }
+}, 250);
 document[_0x6cbb[33]](_0x6cbb[5], () => {
   _0x6cbb[6];
   let _0xebf0x2 = true;
@@ -819,6 +820,7 @@ document[_0x6cbb[33]](_0x6cbb[5], () => {
     var _0xebf0x5c = document[_0x6cbb[11]](_0x6cbb[146]);
     _0xebf0x5c[_0x6cbb[48]](function (_0xebf0xb) {
       var _0xebf0x5d = _0xebf0xb[_0x6cbb[13]](_0x6cbb[147]);
+      console.log(_0xebf0x5d);
       fetch(_0xebf0x5d)
         [_0x6cbb[151]]((_0xebf0x5e) => {
           return _0xebf0x5e[_0x6cbb[152]]();

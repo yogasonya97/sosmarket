@@ -2,7 +2,7 @@ var _0xa32e = [
   "PayApp-Mobile",
   "1.3",
   "-",
-  "/",
+  "https://www.enableds.com'",
   "index.html",
   "menu-sidebar.html",
   "page-activity.html",

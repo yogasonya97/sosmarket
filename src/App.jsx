@@ -28,7 +28,7 @@ function App() {
             d="M 0,600 C 0,600 0,480 0,480 C 70.90909090909093,494.91866028708137 141.81818181818187,509.8373205741627 239,499 C 336.18181818181813,488.1626794258373 459.6363636363636,451.5693779904306 567,446 C 674.3636363636364,440.4306220095694 765.6363636363636,465.88516746411483 862,465 C 958.3636363636364,464.11483253588517 1059.8181818181818,436.8899521531101 1157,435 C 1254.1818181818182,433.1100478468899 1347.090909090909,456.555023923445 1440,480 C 1440,480 1440,600 1440,600 Z"
           />
         </svg>
-        <div className="card card-style mt-4">
+        <div className="card card-style mt-4 shadow">
           <div
             id="carouselExampleControls"
             className="carousel slide"
@@ -127,7 +127,7 @@ function App() {
             </li>
           </ul>
         </div>
-        <div className="card shadow mb-4">
+        <div className="card mb-4">
           <div className="card-body">
             <div className="tab-content" id="pills-tabContent">
               <div
@@ -155,45 +155,61 @@ function App() {
                       Mobile Legends
                     </h6>
                   </div>
-                  <div className="m-auto">
+                  <div className="me-auto">
                     <a
                       href="#"
                       data-bs-toggle="offcanvas"
-                      data-bs-target="#menu-request"
-                      className="icon icon-xxl rounded-m bg-theme shadow-m"
+                      data-bs-target="#menu-transfer"
+                      className="icon icon-xxl rounded-m bg-theme shadow"
                     >
-                      <i className="font-28 color-red-dark bi bi-arrow-down-circle" />
+                      <img
+                        src="https://gameguru.ru/media/cache/66/dc/66dc55df642c35ce9a3e610cf1b032fa.jpg"
+                        className="rounded"
+                        style={{ width: 65 }}
+                      />
+                      {/* <i className="font-28 color-red-dark bi bi-arrow-down-circle" /> */}
                     </a>
                     <h6 className="font-13 opacity-80 font-500 mb-0 pt-2">
-                      Request
+                      Free Fire
                     </h6>
                   </div>
-                  <div
-                    data-bs-toggle="offcanvas"
-                    data-bs-target="#menu-exchange"
-                    className="m-auto"
-                  >
+                  <div className="me-auto">
                     <a
                       href="#"
-                      className="icon icon-xxl rounded-m bg-theme shadow-m"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#menu-transfer"
+                      className="icon icon-xxl rounded-m bg-theme shadow"
                     >
-                      <i className="font-28 color-blue-dark bi bi-arrow-repeat" />
+                      <img
+                        src="https://gameguru.ru/media/cache/66/dc/66dc55df642c35ce9a3e610cf1b032fa.jpg"
+                        className="rounded"
+                        style={{ width: 65 }}
+                      />
+                      {/* <i className="font-28 color-red-dark bi bi-arrow-down-circle" /> */}
                     </a>
                     <h6 className="font-13 opacity-80 font-500 mb-0 pt-2">
-                      Exchange
+                      PUBGM
                     </h6>
                   </div>
-                  <div className="ms-auto">
+                  <div className="me-auto">
                     <a
-                      href="page-payment-bill.html"
-                      className="icon icon-xxl rounded-m bg-theme shadow-m"
+                      href="#"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#menu-transfer"
+                      className="icon icon-xxl rounded-m bg-theme shadow"
                     >
-                      <i className="font-28 color-brown-dark bi bi-filter-circle" />
+                      <img
+                        src="https://gameguru.ru/media/cache/66/dc/66dc55df642c35ce9a3e610cf1b032fa.jpg"
+                        className="rounded"
+                        style={{ width: 65 }}
+                      />
+                      {/* <i className="font-28 color-red-dark bi bi-arrow-down-circle" /> */}
                     </a>
                     <h6 className="font-13 opacity-80 font-500 mb-0 pt-2">
-                      Bills
+                      Speed Drifter
                     </h6>
                   </div>
+                 
                 </div>
               </div>
               <div
@@ -259,7 +275,7 @@ function App() {
             </div>
           </div>
         </div>
-        {/* <div
+        <div
           className="splide quad-slider slider-no-dots slider-no-arrows slider-visible text-center"
           id="double-slider-2"
         >
@@ -307,7 +323,7 @@ function App() {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
       </LayoutMaster>
     </>
   );
